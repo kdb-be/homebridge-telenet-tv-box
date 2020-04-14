@@ -8,7 +8,7 @@ const varClientId = makeId(30);
 const sessionUrl = 'https://web-api-prod-obo.horizon.tv/oesp/v3/BE/nld/web/session';
 const jwtUrl = 'https://web-api-prod-obo.horizon.tv/oesp/v3/BE/nld/web/tokens/jwt';
 const channelsUrl = 'https://web-api-prod-obo.horizon.tv/oesp/v3/BE/nld/web/channels';
-const mqttUrl = 'wss://obomsg.prod.be.horizon.tv:443/mqtt';
+const mqttUrl = 'wss://obomsg.prod.be.horizon.tv/mqtt';
 
 let mqttClient = {};
 
